@@ -15,6 +15,7 @@
 body {  
   background-color: var(--primary);
   font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
 }
 
 header {
@@ -26,7 +27,7 @@ header {
   justify-content: space-between;
 }
 
-header h1 {
+h1 {
   padding: 20px;
 }
 
@@ -43,12 +44,50 @@ header nav ul {
 header nav ul li {  
   font-size: 20px;
   padding: 0px 20px;
+  cursor: pointer;
+}
+
+.navActive {
+  color: var(--dark);
+  font-weight:bold
 }
 
 
 main {
   background-color: var(--tertiary);
   color: var(--dark)
+}
+
+.about-text {
+  padding: 50px;
+  max-width: 70%;
+}
+
+.photo-me {
+  padding: 50px;
+
+}
+
+.photo-me img {
+  border-radius: 30%;
+  width: 200px;
+}
+
+.centered {
+  justify-content: center;
+}
+
+.portfolio-container {
+  justify-content: space-around;
+}
+
+.project-container {
+  width: 40%;
+  padding: 20px;
+}
+
+.project-container img {
+  width: 100%;
 }
 
 footer {

@@ -10,19 +10,23 @@ import './App.css';
 function App() {
   const [pages] = useState([
     {
-      name: "About",
+      name: "about",
+      display: "About Me",
       component: <About />
     },
     {
-      name: "Portfolio",
+      name: "portfolio",
+      display: "Portfolio",
       component: <Portfolio />
     },
     {
-      name: "Contact",
+      name: "contact",
+      display: "Contact",
       component: <Contact />
     },
     {
-      name: "Resume",
+      name: "resume",
+      display: "Resume",
       component: <Resume />
     },
   ]);
