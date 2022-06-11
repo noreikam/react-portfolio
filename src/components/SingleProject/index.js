@@ -8,7 +8,7 @@ const { project } = props;
       <h2>{project.display}</h2>
       <a href={project.liveURL}>Live project</a><br/>
       <a href={project.gitURL}>View repository on GitHub</a>
-      <img src={require(`../../images/${project.name}.png`)} alt={project.display} />
+      <img src={require(`../../assets/images/${project.name}.png`)} alt={project.display} />
     </card>
   )
 }
