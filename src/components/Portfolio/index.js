@@ -14,13 +14,37 @@ function Portfolio() {
       display: "Foodio",
       liveURL: "https://noreikam.github.io/foodio/",
       gitURL: "https://github.com/noreikam/foodio/"
+    },
+    {
+      name: "foodio",
+      display: "Foodio",
+      liveURL: "https://noreikam.github.io/foodio/",
+      gitURL: "https://github.com/noreikam/foodio/"
+    },
+    {
+      name: "foodio",
+      display: "Foodio",
+      liveURL: "https://noreikam.github.io/foodio/",
+      gitURL: "https://github.com/noreikam/foodio/"
+    },
+    {
+      name: "foodio",
+      display: "Foodio",
+      liveURL: "https://noreikam.github.io/foodio/",
+      gitURL: "https://github.com/noreikam/foodio/"
+    },
+    {
+      name: "foodio",
+      display: "Foodio",
+      liveURL: "https://noreikam.github.io/foodio/",
+      gitURL: "https://github.com/noreikam/foodio/"
     }
   ])
 
   return(
     <div className="flex-row centered">
       <h1>My Projects</h1>
-      <div  className="flex-row portfolio-container">
+      <div  className="flex-row" id="portfolio-container">
         {projects.map((project) => (
           <SingleProject 
             project={project}
