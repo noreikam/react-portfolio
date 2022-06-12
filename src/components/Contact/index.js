@@ -37,9 +37,12 @@ function Contact() {
 
 
   return(
-    <section id="contact-form" >
-      <h2>Contact me</h2>
-      <form onSubmit={handleSubmit}>
+    <div className="footer-space">
+      <h1>Contact me</h1>      
+      <form id="contact-form" onSubmit={handleSubmit}>
+        <div>
+          <p>Email me at <a href="mailto: noreikam1@gmail.com">noreikam1@gmail.com</a></p>
+        </div>
         <div>
           <label htmlFor="name">Name:</label><br/>
           <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
@@ -59,7 +62,7 @@ function Contact() {
         )}
         <button type="submit">Submit</button>
       </form>
-    </section>
+    </div>
   )
 }
 

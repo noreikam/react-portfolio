@@ -2,13 +2,26 @@ import React from 'react';
 
 function About() {
   return(
-    <div className="flex-row">
-      <section id="about-text">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis fuga molestiae temporibus voluptates dolore a consequuntur, nihil, perspiciatis ipsa est tempora ipsum, facere id libero? Molestias ab adipisci cumque quisquam modi pariatur. Ducimus vero doloremque facilis dignissimos maxime porro alias aspernatur esse nisi, facere eum quos dolorum quasi, unde accusantium laboriosam nobis at repellat laborum fugiat ipsum obcaecati iusto? Repellendus vel molestiae perspiciatis pariatur, consequatur sequi deleniti beatae odit alias repudiandae! Rerum, dignissimos nulla! Eligendi accusamus facere ipsum iste nihil nam repudiandae, impedit autem rerum quis vel dolorum? Ab ipsam modi architecto impedit totam facere praesentium, vitae natus aut cum.
-      </section>
-      <div id="photo-me">
-        <img src={require("../../assets/images/me.jpg")} alt="Matt Noreika"/>
+    <div className="footer-space">
+      <h1>About Me</h1>
+      <div className="flex-row">
+        <section id="about-text">
+          <h3>Professional</h3>
+          <p>
+            Hi there.  My name is Matt.  I'm a Full Stack Web Developer with a focus on back end technologies.  Always looking for more information, I recently completed the UConn Full Stack Web Developer Boot Camp, and am seeking my first opportunity in the industry.  I currently work as a delivery driver and have past experience in IT as a Business Analyst.  
+          </p>
+          <h3>Personal</h3>
+          <p>
+            Some may say 35 is too old to be a Lego fanatic, but I strongly disagree.  I am a rabid Celtics fan and a semi-retired non-professional golfer.  I'm a better cook than many but probably not as good as I imagine myself to be.  Clever, funny shows are what I watch in my down time.
+          </p>
+          <h3> Want to know more?</h3>
+          <p>Check out my work under Portfolio, my qualifications under Resume, or reach out to me directly in the Contact tab.</p>
+        </section>
+        <div id="photo-me">
+          <img src={require("../../assets/images/me.jpg")} alt="Matt Noreika"/>
+        </div>
       </div>
+      
     </div>
   )
 }

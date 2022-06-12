@@ -16,35 +16,41 @@ function Portfolio() {
       gitURL: "https://github.com/noreikam/foodio/"
     },
     {
-      name: "foodio",
-      display: "Foodio",
-      liveURL: "https://noreikam.github.io/foodio/",
-      gitURL: "https://github.com/noreikam/foodio/"
+      name: "social-network-api",
+      display: "Social Network API",
+      liveURL: "https://www.youtube.com/watch?v=G5NnqyM8p9M",
+      gitURL: "https://github.com/noreikam/social-network/"
     },
     {
-      name: "foodio",
-      display: "Foodio",
-      liveURL: "https://noreikam.github.io/foodio/",
-      gitURL: "https://github.com/noreikam/foodio/"
+      name: "workday-scheduler",
+      display: "Work Day Scheduler",
+      liveURL: "https://noreikam.github.io/workday/",
+      gitURL: "https://github.com/noreikam/workday/"
     },
     {
-      name: "foodio",
-      display: "Foodio",
-      liveURL: "https://noreikam.github.io/foodio/",
-      gitURL: "https://github.com/noreikam/foodio/"
+      name: "team-generator",
+      display: "Team Generator",
+      liveURL: "https://noreikam.github.io/team-generator/",
+      gitURL: "https://github.com/noreikam/team-generator"
     },
     {
-      name: "foodio",
-      display: "Foodio",
-      liveURL: "https://noreikam.github.io/foodio/",
-      gitURL: "https://github.com/noreikam/foodio/"
+      name: "e-commerce-ORM",
+      display: "E-Commerce ORM",
+      liveURL: "https://www.youtube.com/watch?v=Rs159fKk0L4",
+      gitURL: "https://github.com/noreikam/e-commerce"
+    },
+    {
+      name: "password-generator",
+      display: "Password Generator",
+      liveURL: "https://noreikam.github.io/password-generator/",
+      gitURL: "https://github.com/noreikam/password-generator/"
     }
   ])
 
   return(
-    <div className="flex-row centered">
-      <h1>My Projects</h1>
-      <div  className="flex-row" id="portfolio-container">
+    <div className="flex-row footer-space">
+      <h1>Portfolio</h1>
+      <div  className="flex-row container">
         {projects.map((project) => (
           <SingleProject 
             project={project}
