@@ -4,6 +4,12 @@ import SingleProject from '../SingleProject';
 function Portfolio() {
   const [projects] = useState([
     {
+      name: "giv",
+      display: "giv.",
+      liveURL: "https://giv-social.herokuapp.com/",
+      gitURL: "https://github.com/Jesse-Lemieux/giv"
+    },
+    {
       name: "go-fish",
       display: "Go Fish",
       liveURL: "https://go-fish-project-two.herokuapp.com/",

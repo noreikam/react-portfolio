@@ -7,17 +7,17 @@ function Footer() {
       <p>Visit me on: </p>
       <ul className="flex-row">
         <li>
-          <a href="https://github.com/noreikam" target="_blank">
+          <a href="https://github.com/noreikam" target="_blank" rel="noreferrer">
             <RiGithubLine/> GitHub
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/matt-noreika-0628b8ab/" target="_blank">
+          <a href="https://www.linkedin.com/in/matt-noreika-0628b8ab/" target="_blank" rel="noreferrer">
             <RiLinkedinBoxLine/> LinkedIn
           </a>
         </li>
         <li>
-          <a href="https://twitter.com/MattyFromCT" target="_blank">
+          <a href="https://twitter.com/MattyFromCT" target="_blank" rel="noreferrer">
             <RiTwitterLine/> Twitter
           </a>
         </li>

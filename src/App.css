@@ -16,6 +16,10 @@
   flex-wrap: wrap;
 }
 
+main a {
+  color: var(--dark);
+}
+
 body {  
   background-color: var(--primary);
   font-family: Arial, Helvetica, sans-serif;
@@ -25,7 +29,6 @@ body {
 
 header {
   background-color: var(--secondary);
-  color: var(--dark);
   position: sticky;
   top: 0;
   width: 100%;
@@ -40,10 +43,6 @@ a {
   text-decoration: none;
   color: var(--dark);
   font-weight: 600;
-}
-
-header h1 a {
-  color: var(--light);
 }
 
 header nav ul {  
